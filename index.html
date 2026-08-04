@@ -42,6 +42,13 @@
   }
   .callout p:last-child{margin-bottom:0}
   .callout p:first-child{font-weight:600}
+  .note{
+    font-size:.9375rem;
+    color:var(--muted);
+    border-top:1px solid var(--rule);
+    padding-top:1.25rem;
+    margin-top:2.25rem;
+  }
   .links{
     display:flex;flex-wrap:wrap;gap:.75rem;
     margin:1.5rem 0 0;padding:0;list-style:none;
@@ -82,18 +89,21 @@
 </div>
 
 <h2>About the app</h2>
-<p>Y90 Dosing implements published dosimetry formulations for yttrium-90 glass microsphere radioembolization — single-compartment, partition, and multi-territory models — along with vial activity and decay reference tools. It performs arithmetic on values you enter and shows the working. It does not prescribe, recommend, or determine treatment.</p>
-<p>The app runs entirely on your device. It makes no network connections, requires no account, and collects nothing.</p>
+<p>Y90 Dosing implements published dosimetry formulations for yttrium-90 glass microsphere radioembolization, along with vial activity and decay reference tools. You enter one or more perfused territories, choose single-compartment or partition dosing for each, and the app solves for the activity required — showing the working. It does not prescribe, recommend, or determine treatment.</p>
+<p>The app runs entirely on your device. It requires no account, sends nothing anywhere, and collects nothing.</p>
+
+<h2>Getting started</h2>
+<p>The Settings tab contains a guided tutorial that walks through a complete worked example on the real screens. It takes a couple of minutes, assumes no familiarity with the app, and removes its own example data when it finishes.</p>
 
 <h2>Getting help</h2>
 <p>For questions, bug reports, or to report a suspected calculation error, email <a href="mailto:y90app@gmail.com">y90app@gmail.com</a>.</p>
-<p>Suspected calculation errors are taken seriously. When reporting one, it helps to include the model used, the inputs entered, the result shown, and the result you expected.</p>
+<p>Suspected calculation errors are taken seriously. When reporting one, it helps to include the model used for each territory, the inputs entered, the result shown, and the result you expected.</p>
 <p>The app is provided free of charge and support is offered on a best-effort basis, without any guarantee of response time or resolution.</p>
 
 <h2>Privacy in brief</h2>
 <ul>
   <li>No accounts, no analytics, no advertising, no tracking</li>
-  <li>No network connections — the app works fully offline</li>
+  <li>The app sends nothing anywhere and works fully offline</li>
   <li>Saved cases stay on your device and can be deleted at any time</li>
   <li>Do not enter patient-identifying information; the app is not a HIPAA-compliant system</li>
 </ul>
@@ -103,6 +113,8 @@
   <li><a href="./terms.html">Terms of Use</a></li>
   <li><a href="mailto:y90app@gmail.com">Contact</a></li>
 </ul>
+
+<p class="note">Y90 Dosing is an independent project. It is not affiliated with, endorsed by, or connected to Boston Scientific Corporation or any other manufacturer. TheraSphere® is a registered trademark of Boston Scientific Corporation or its affiliates, used here only to identify the product to which published calculations apply.</p>
 
 <footer>
   <p>Y90 Dosing · Abhishek Goswami · <a href="mailto:y90app@gmail.com">y90app@gmail.com</a></p>
